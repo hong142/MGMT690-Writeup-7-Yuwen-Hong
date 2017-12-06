@@ -1,1 +1,1 @@
-# MGMT690-Writeup-7-Yuwen-Hong
+# Updating, maintenance, and scaling
