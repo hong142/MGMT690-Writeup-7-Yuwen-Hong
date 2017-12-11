@@ -2,6 +2,7 @@
 So far, our team have done the basic setup of our object detection pipeline for security systems. If you followed all the steps covered in previous six writeups, you should have got a similar pipeline that can automatically run on a remote server to validate images, detect objects as well as threats, send alerts and then generate a plot. However, we haven't reach the end of the project. This writeup discusses what you can do in the long run to update, debug, maintain or scale your pipeline, followed by some ideas of improvement you may apply to your pipeline.
 ## Updating the Pipeline
 After the inital dployment, it's common you may want to update the pipeline. 
+
 To update the specification of a certain stage, you just need to update the associated JSON file and execute "update-pipeline" with pachctl. It's the same way you set the API key to the threat detect stage as described in writeup 6.
 ```
 $ pachctl update-pipeline -f <pipelineName.json>
