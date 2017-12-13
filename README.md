@@ -1,5 +1,5 @@
 # Updating, Maintenance & Scaling
-So far, our team have done the basic setup of our object detection pipeline for security systems. If you followed all the steps covered in previous six writeups, you should have got a similar pipeline that can automatically run on a remote server to validate images, detect objects as well as threats, send alerts and then generate a plot. However, we haven't reach the end of the project. This writeup discusses what you can do in the long run to update, debug, maintain or scale your pipeline, followed by some ideas of improvement you may apply to your pipeline.
+So far, our team has done the basic setup of our object detection pipeline for security systems. If you followed all the steps covered in previous six writeups, you should have got a similar pipeline that can automatically run on a remote server to validate images, detect objects as well as threats, send alerts and then generate a plot. However, we haven't reach the end of the project. This writeup discusses what you can do in the long run to update, debug, maintain or scale your pipeline, followed by some ideas of improvement you may apply to your pipeline.
 ## Updating the Pipeline
 After the initial deployment, it's common you may want to update the pipeline. 
 
